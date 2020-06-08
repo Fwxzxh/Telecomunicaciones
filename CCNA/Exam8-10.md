@@ -491,6 +491,7 @@ BldgA(config-if)# end
 A network administrator is connecting a new host to the manager LAN.
 The host needs to communicate with remote networks.
 What IP address would be configured as the default gateway on the new host?**
+
 ```
 Floor(config)# interface gi0/1
 Floor(config-if)# description Connects to the Registrar LAN
@@ -516,6 +517,7 @@ Floor(config-if)# end
 A network administrator is connecting a new host to the store LAN.
 The host need to comunicate with remote networks.
 What IP address would be configured as the default gateway on the new host?**
+
 ```
 HQ(config)# interface gi0/1
 HQ(config-if)# description Connects to the Branch LAN
@@ -536,6 +538,4 @@ HQ(config-if)# no shutdown
 HQ(config-if)# end
 ```
 * 172.19.98.230
-
-
 
